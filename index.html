@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#101619">
+  <title>Alan | Cybersecurity Portfolio</title>
+  <meta name="description" content="Personal cybersecurity portfolio featuring hands-on projects in networking, Linux, SIEM, defensive security, Python, and security engineering.">
+  <meta property="og:title" content="Alan | Cybersecurity Portfolio">
+  <meta property="og:description" content="Learning cybersecurity through hands-on labs, troubleshooting, and personal projects.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- defer runs these files after the HTML is ready, in this order. -->
+  <script src="js/projects.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container navigation">
+      <a class="wordmark" href="#home" aria-label="Alan, home"><span class="brand-symbol" aria-hidden="true">a.</span> alan<span class="muted">/</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="#home" aria-current="location">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#learning">Learning</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-line"></span> A STUDENT. A LAB. A LOT TO LEARN.</p>
+        <h1 id="hero-title">Hi, I'm Alan.<br>Learning by<br><span>building.</span></h1>
+        <p class="role">Cybersecurity Student <span>|</span> Networking <span>|</span> Linux<br class="desktop-break"> <span>|</span> Blue Team <span>|</span> Security Engineering</p>
+        <p class="hero-description">I build hands-on labs to understand how systems work, where they break, and how to defend them. This is where I document the process.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact" data-profile="github">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Conceptual network diagram connecting networking, Linux, and defensive security">
+        <div class="visual-label"><span>THE HANDS-ON APPROACH</span><span aria-hidden="true">01 / LAB</span></div>
+        <svg viewBox="0 0 480 390" role="img" aria-labelledby="network-title">
+          <title id="network-title">Networking, Linux and defensive security connected through a learning lab; a conceptual illustration, not a live system.</title>
+          <defs><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M 26 0 L 0 0 0 26" fill="none" stroke="#263337" stroke-width="0.6"/></pattern></defs>
+          <rect width="480" height="390" fill="url(#grid)"/>
+          <g fill="none" stroke="#3a6061" stroke-width="1.5"><path d="M240 105V175M240 245V285H105V310M240 285H375V310"/><circle cx="240" cy="210" r="128" stroke-dasharray="3 9" opacity="0.5"/></g>
+          <g fill="#172226" stroke="#385256"><rect x="175" y="53" width="130" height="52" rx="8"/><rect x="154" y="175" width="172" height="70" rx="10"/><rect x="42" y="310" width="126" height="52" rx="8"/><rect x="308" y="310" width="134" height="52" rx="8"/></g>
+          <g font-family="monospace" text-anchor="middle"><text x="240" y="84" fill="#c2d4d4" font-size="13">NETWORKING</text><text x="240" y="205" fill="#79ddc6" font-size="16">MY LEARNING LAB</text><text x="240" y="225" fill="#a6b7bc" font-size="12">build · test · understand</text><text x="105" y="342" fill="#c2d4d4" font-size="13">LINUX</text><text x="375" y="342" fill="#c2d4d4" font-size="13">DEFENSIVE SECURITY</text></g>
+          <g fill="#79ddc6"><circle cx="240" cy="137" r="4"/><circle cx="170" cy="285" r="4"/><circle cx="310" cy="285" r="4"/></g>
+        </svg>
+        <div class="visual-footer"><span>Understand the system.</span><span class="accent">Then make it stronger.</span></div>
+      </div>
+      <div class="hero-bottom"><span class="mono">NETWORKING / LINUX / DEFENSIVE SECURITY</span><a href="#projects">Explore the lab notes <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <!-- Projects come first after the introduction: this is the main work. -->
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="projects-title">Inside the lab.</h2></div><p>Projects, experiments, and lessons<br>from figuring things out.</p></div>
+        <div id="project-grid" class="project-grid"></div>
+        <noscript><p>Enable JavaScript to see project cards and their notes. The rest of this portfolio works without it.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section container about-grid" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">02 / ABOUT ME</p><h2 id="about-title">Curious about systems.<br>Driven to understand them.</h2></div>
+      <div class="about-copy"><p>I'm a student learning cybersecurity through personal projects and hands-on labs. I like setting something up, finding out why it doesn't work, and staying with the problem until it makes sense.</p><p>My interests span networking, Linux, virtualisation, Python, and Docker. I'm especially interested in defensive security, SOC operations and analysis, SIEM tools such as Wazuh, and security engineering. I also explore web security and penetration testing in authorised environments.</p><p>For me, the useful part is the process: build, experiment, break things safely, troubleshoot, and document what I learn.</p><div class="process"><span>Build</span><span>Test</span><span>Understand</span><span>Document</span></div></div>
+    </section>
+
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">03 / MY TOOLBOX</p><h2 id="skills-title">Tools I'm working with.</h2></div><p>A mix of hands-on practice and topics<br>I'm exploring. Always learning.</p></div>
+        <!-- Edit these lists directly. They are topics, not proficiency ratings. -->
+        <div class="skills-grid">
+          <article class="skill-group"><span class="skill-number">01</span><h3>Operating systems</h3><p>Linux · Windows · Ubuntu Server · Kali Linux</p></article>
+          <article class="skill-group"><span class="skill-number">02</span><h3>Networking</h3><p>TCP/IP · Subnetting · Routing · DHCP · DNS · NAT · SSH</p></article>
+          <article class="skill-group"><span class="skill-number">03</span><h3>Security</h3><p>Wazuh · SIEM · Log analysis · Wireshark · Nmap</p><p class="skill-note">Exploring threat hunting &amp; incident investigation</p></article>
+          <article class="skill-group"><span class="skill-number">04</span><h3>Programming &amp; scripting</h3><p>Python · Bash · HTML · CSS · JavaScript</p></article>
+          <article class="skill-group"><span class="skill-number">05</span><h3>Virtualisation &amp; infrastructure</h3><p>VMware · KVM/QEMU · Docker</p></article>
+          <article class="skill-group"><span class="skill-number">06</span><h3>Everyday tools</h3><p>Git · GitHub · Cisco Packet Tracer · Apache</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="learning" aria-labelledby="learning-title">
+      <div class="section-heading"><div><p class="eyebrow">04 / LEARNING JOURNEY</p><h2 id="learning-title">A work in progress.<br>By choice.</h2></div><p>I prefer learning by building, breaking,<br>troubleshooting, and documenting systems<br>rather than only reading theory.</p></div>
+      <div class="learning-grid">
+        <div class="journey">
+          <article><h3>Understand the foundations</h3><p>Networking and Linux: following packet flow, configuring services, and understanding what the logs are telling me.</p></article>
+          <article><h3>Build a defensive mindset</h3><p>Blue Team and SOC workflows: exploring SIEM investigation and how individual events fit into a bigger picture.</p></article>
+          <article><h3>Keep improving the system</h3><p>Security engineering: connecting what I learn about monitoring, hardening, and automation.</p></article>
+        </div>
+        <aside class="learning-card" aria-labelledby="currently-title"><p class="eyebrow">ON MY LEARNING RADAR</p><h3 id="currently-title">Currently Learning</h3><p>Study topics and goals, not completed certifications.</p>
+          <!-- Add or remove an li to update your current learning topics. -->
+          <ul class="learning-tags"><li>SOC Level 1</li><li>Microsoft SC-200</li><li>Network+</li><li>Microsoft Sentinel</li><li>Wazuh</li><li>SIEM investigation</li><li>KQL</li><li>Security Engineering</li><li>Incident Response</li><li>Threat Hunting</li></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-layout"><div><p class="eyebrow">05 / CONTACT</p><h2 id="contact-title">Let's compare notes.</h2><p>Interested in the projects, or learning something similar?</p></div><div class="contact-links">
+      <!-- Set the real addresses once in the profile object in js/script.js. -->
+      <a data-contact="github" aria-disabled="true"><span>GitHub<small>USERNAME · link to be added</small></span><span aria-hidden="true">↗</span></a>
+      <a data-contact="linkedin" aria-disabled="true"><span>LinkedIn<small>USERNAME · link to be added</small></span><span aria-hidden="true">↗</span></a>
+      <a data-contact="email" aria-disabled="true"><span>Email<small>your@email.com · to be added</small></span><span aria-hidden="true">↗</span></a>
+    </div></div></section>
+  </main>
+  <footer class="container footer"><p>Built and maintained by Alan</p><span class="mono">KEEP LEARNING. KEEP BUILDING.</span><a href="#home">Back to top ↑</a></footer>
+
+  <!-- This template is copied once per object in js/projects.js. -->
+  <template id="project-template">
+    <article class="project-card">
+      <figure class="project-figure"><img class="project-image" src="assets/images/placeholder.svg" alt="" width="720" height="340" loading="lazy"><figcaption></figcaption></figure>
+      <div class="project-content"><div class="project-meta"><span class="project-category"></span><span class="status"></span></div><h3></h3><p class="project-description"></p><ul class="tags" aria-label="Tools used"></ul><div class="project-actions"><button class="details-button">View details <span aria-hidden="true">↗</span></button><a class="repository-link">GitHub <span aria-hidden="true">↗</span></a></div></div>
+    </article>
+  </template>
+
+  <!-- The native dialog handles keyboard focus containment and Escape. -->
+  <dialog id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-toolbar"><span class="eyebrow">PROJECT NOTES</span><button id="close-dialog" class="close-button" aria-label="Close project details" autofocus>Close ×</button></div>
+    <div class="dialog-body"><p id="dialog-status" class="eyebrow"></p><h2 id="dialog-title"></h2><div id="dialog-content"></div></div>
+  </dialog>
+</body>
+</html>

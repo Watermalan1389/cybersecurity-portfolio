@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="ISOLATED ENVIRONMENT concept diagram">
+<defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#2c3c41"/></pattern></defs>
+<rect width="720" height="340" fill="#10191d"/><rect width="720" height="340" fill="url(#dots)"/>
+<text x="36" y="43" fill="#79ddc6" font-family="monospace" font-size="12" letter-spacing="2">ISOLATED ENVIRONMENT</text>
+<path d="M194 170H280M440 170H526" fill="none" stroke="#4a6669" stroke-width="2"/>
+<rect x="34" y="112" width="160" height="116" rx="10" fill="#18252b" stroke="#3b5057"/>
+<rect x="100" y="132" width="28" height="25" rx="4" fill="none" stroke="#79ddc6" stroke-width="2"/>
+<path d="M105 141h18m-18 7h12" stroke="#79ddc6" stroke-width="2"/>
+<text x="114" y="188" text-anchor="middle" fill="#d5e3e4" font-family="monospace" font-size="13">LINUX</text>
+<text x="114" y="209" text-anchor="middle" fill="#99afb5" font-family="monospace" font-size="11">01</text>
+<rect x="280" y="112" width="160" height="116" rx="10" fill="#18252b" stroke="#79ddc6"/>
+<rect x="346" y="132" width="28" height="25" rx="4" fill="none" stroke="#79ddc6" stroke-width="2"/>
+<path d="M351 141h18m-18 7h12" stroke="#79ddc6" stroke-width="2"/>
+<text x="360" y="188" text-anchor="middle" fill="#d5e3e4" font-family="monospace" font-size="13">LAB NETWORK</text>
+<text x="360" y="209" text-anchor="middle" fill="#99afb5" font-family="monospace" font-size="11">02</text>
+<rect x="526" y="112" width="160" height="116" rx="10" fill="#18252b" stroke="#3b5057"/>
+<rect x="592" y="132" width="28" height="25" rx="4" fill="none" stroke="#79ddc6" stroke-width="2"/>
+<path d="M597 141h18m-18 7h12" stroke="#79ddc6" stroke-width="2"/>
+<text x="606" y="188" text-anchor="middle" fill="#d5e3e4" font-family="monospace" font-size="13">MONITORING</text>
+<text x="606" y="209" text-anchor="middle" fill="#99afb5" font-family="monospace" font-size="11">03</text>
+<circle cx="237" cy="170" r="4" fill="#79ddc6"/><circle cx="483" cy="170" r="4" fill="#79ddc6"/>
+</svg>
