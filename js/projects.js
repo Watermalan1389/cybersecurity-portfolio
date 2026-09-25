@@ -46,5 +46,27 @@ const projects = [
       whatILearned: "",
       improvements: ""
     }
+  },
+
+  {
+    title: "Ubuntu Server Security Lab",
+    category: "Linux / Defensive Security",
+    description: "An Ubuntu Server security lab where I configured a firewall and Fail2ban, then performed controlled SSH authentication testing from a Kali Linux machine.",
+    tools: ["Ubuntu Server", "UFW", "Fail2ban", "SSH", "Hydra", "Kali Linux"],
+    status: "Completed",
+    image: "assets/images/ubuntu-server.svg",
+    imageAlt: "Placeholder for an Ubuntu Server security lab screenshot.",
+    imageCaption: "Earlier project · limited documentation available",
+    github: "https://github.com/Watermalan1389/ubuntu-server-security-lab",
+    details: {
+     overview: "This was one of my earlier cybersecurity projects. I created an Ubuntu Server lab, applied basic security controls, and performed controlled testing from a Kali Linux machine. I did not fully document the project while building it, so some of the original details are unavailable.",
+      architecture: "The lab used an Ubuntu Server virtual machine and a Kali Linux virtual machine connected through a virtual network.",
+      whatIBuilt: "I configured UFW and Fail2ban on the Ubuntu Server, then generated controlled failed SSH login attempts from Kali Linux to observe how the protection responded.",
+      screenshots: [],
+      problems: "The specific problems I encountered were not documented at the time.",
+      solutions: "The troubleshooting steps and solutions were not documented at the time.",
+      whatILearned: "The project gave me practical experience with Linux server hardening, firewall rules, SSH authentication logs, and Fail2ban.",
+      improvements: "If I rebuilt this project, I would document each configuration step, include a network diagram, save relevant logs and screenshots, and explain the results of each test."
+    }
   }
 ];
