@@ -56,13 +56,29 @@ const projects = [
     status: "Completed",
     image: "assets/images/ubuntu-server.svg",
     imageAlt: "Placeholder for an Ubuntu Server security lab screenshot.",
-    imageCaption: "Earlier project · limited documentation available",
+    imageCaption: "Earlier project · limited documentation available · simple log screenshots",
     github: "https://github.com/Watermalan1389/ubuntu-server-security-lab",
     details: {
      overview: "This was one of my earlier cybersecurity projects. I created an Ubuntu Server lab, applied basic security controls, and performed controlled testing from a Kali Linux machine. I did not fully document the project while building it, so some of the original details are unavailable.",
       architecture: "The lab used an Ubuntu Server virtual machine and a Kali Linux virtual machine connected through a virtual network.",
       whatIBuilt: "I configured UFW and Fail2ban on the Ubuntu Server, then generated controlled failed SSH login attempts from Kali Linux to observe how the protection responded.",
-      screenshots: [],
+      screenshots: [
+  {
+    src: "assets/projects/ubuntu-server-security-lab/banconfig.png",
+    alt: "Fail2Ban configuration used in the Ubuntu Server security lab.",
+    caption: "Fail2Ban jail configuration."
+  },
+  {
+    src: "assets/projects/ubuntu-server-security-lab/fail2banlogs.png",
+    alt: "Fail2Ban logs from the Ubuntu Server security lab.",
+    caption: "Fail2Ban logs showing the SSH authentication testing."
+  },
+  {
+    src: "assets/projects/ubuntu-server-security-lab/banstatus.png",
+    alt: "Fail2Ban status after controlled SSH authentication testing.",
+    caption: "Fail2Ban status showing the result of the SSH testing."
+  }
+],
       problems: "The specific problems I encountered were not documented at the time.",
       solutions: "The troubleshooting steps and solutions were not documented at the time.",
       whatILearned: "The project gave me practical experience with Linux server hardening, firewall rules, SSH authentication logs, and Fail2ban.",
