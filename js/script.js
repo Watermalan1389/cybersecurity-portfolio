@@ -1,9 +1,9 @@
 /* 1. YOUR LINKS — replace these examples with your real public addresses.
    Placeholder links remain inactive so visitors are not sent to fake accounts. */
 const profile = {
-  github: "https://github.com/USERNAME",
-  linkedin: "https://linkedin.com/in/USERNAME",
-  email: "your@email.com"
+  github: "https://github.com/Watermalan1389",
+  linkedin: "https://www.linkedin.com/in/alan-khosravi-861503386/",
+  email: "alan.kh2010@gmail.com"
 };
 
 /* 2. SMALL HELPERS */
